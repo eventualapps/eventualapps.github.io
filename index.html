@@ -1,20 +1,30 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My GitHub Page</title>
+    <title>EventualApps</title>
     <style>
       html,
       body {
         height: 100%;
         margin: 0;
         display: flex;
+        flex-wrap: wrap; /* Wrap tiles to next row if needed */
         justify-content: center;
         align-items: center;
+        background-color: #282828; /* Gruvbox dark background color */
+        color: #fabd2f; /* Gruvbox golden color */
         font-family: monospace;
-        background-color: #282828;
-        color: #fabd2f;
+        font-size: 24px; /* Default font size */
+      }
+      .tile {
+        flex: 0 0 auto; /* Allow tiles to shrink and grow as needed */
+        margin: 10px; /* Add some space between tiles */
+        max-width: calc(
+          50% - 20px
+        ); /* Limit width of each tile to half of the screen width minus margins */
+        overflow: auto; /* Add scrollbars if needed */
       }
       pre {
         white-space: pre;
@@ -22,18 +32,185 @@
     </style>
   </head>
   <body>
-    <pre>
-                                           █████                         ████                                       
-                                          ░░███                         ░░███                                       
-  ██████  █████ █████  ██████  ████████   ███████   █████ ████  ██████   ░███   ██████   ████████  ████████   █████ 
- ███░░███░░███ ░░███  ███░░███░░███░░███ ░░░███░   ░░███ ░███  ░░░░░███  ░███  ░░░░░███ ░░███░░███░░███░░███ ███░░  
-░███████  ░███  ░███ ░███████  ░███ ░███   ░███     ░███ ░███   ███████  ░███   ███████  ░███ ░███ ░███ ░███░░█████ 
-░███░░░   ░░███ ███  ░███░░░   ░███ ░███   ░███ ███ ░███ ░███  ███░░███  ░███  ███░░███  ░███ ░███ ░███ ░███ ░░░░███
-░░██████   ░░█████   ░░██████  ████ █████  ░░█████  ░░████████░░████████ █████░░████████ ░███████  ░███████  ██████ 
- ░░░░░░     ░░░░░     ░░░░░░  ░░░░ ░░░░░    ░░░░░    ░░░░░░░░  ░░░░░░░░ ░░░░░  ░░░░░░░░  ░███░░░   ░███░░░  ░░░░░░  
-                                                                                         ░███      ░███             
-                                                                                         █████     █████            
-                                                                                        ░░░░░     ░░░░░             
-    </pre>
+    <div class="tile">
+      <pre>
+          
+          
+  ██████  
+ ███░░███░
+░███████  
+░███░░░   
+░░██████  
+ ░░░░░░   
+          
+          
+          
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+           
+           
+█████ █████
+░███ ░░███ 
+░███  ░███ 
+░░███ ███  
+ ░░█████   
+  ░░░░░    
+           
+           
+           
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+         
+         
+  ██████ 
+ ███░░███
+░███████ 
+░███░░░  
+░░██████ 
+ ░░░░░░  
+         
+         
+         
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+           
+           
+ ████████  
+░░███░░███ 
+ ░███ ░███ 
+ ░███ ░███ 
+ ████ █████
+░░░░ ░░░░░ 
+           
+           
+           
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+  █████  
+ ░░███   
+ ███████ 
+░░░███░  
+  ░███   
+  ░███ ██
+  ░░█████
+   ░░░░░ 
+         
+         
+         
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+            
+            
+ █████ ████ 
+░░███ ░███  
+ ░███ ░███  
+ ░███ ░███  
+ ░░████████░
+  ░░░░░░░░  
+            
+            
+            
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+          
+          
+  ██████  
+ ░░░░░███ 
+  ███████ 
+████░░███ 
+ ░████████
+ ░░░░░░░░ 
+          
+          
+          
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+ ████  
+░░███  
+ ░███  
+ ░███  
+ ░███  
+ ░███  
+ █████░
+░░░░░  
+       
+       
+       
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+         
+         
+ ██████  
+░░░░░███ 
+ ███████ 
+███░░███ 
+░████████
+░░░░░░░░ 
+         
+         
+         
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+          
+          
+ ████████ 
+░░███░░███
+ ░███ ░███
+ ░███ ░███
+ ░███████ 
+ ░███░░░  
+ ░███     
+ █████    
+░░░░░     
+      </pre>
+    </div>
+    <div class="tile">
+      <pre>
+          
+          
+ ████████ 
+░░███░░███
+ ░███ ░███
+ ░███ ░███
+ ░███████ 
+ ░███░░░  
+ ░███     
+ █████    
+░░░░░     
+      </pre>
+    </div>
+
+    <div class="tile">
+      <pre>
+        
+        
+  █████ 
+ ███░░  
+░░█████ 
+ ░░░░███
+ ██████ 
+░░░░░░  
+        
+        
+        
+      </pre>
   </body>
 </html>
